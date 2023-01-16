@@ -7,6 +7,7 @@ body {
     background: rgb(38, 34, 34);
     height: 100vh;
     display: flex;
+    animation: chartOpacity ease 5s;
 }
 
 .raw {
@@ -90,18 +91,20 @@ svg {
 }
 
 .chart {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
-
+    display: inline-block;
+    animation: chartOpacity ease 5s;
 }
 
 img {
     width: 500px;
+    animation: chartOpacity ease 5s;
 }
 
 .chart-title1 {
     color: aliceblue;
-    animation: textColor 2s;
+    animation: textColor ease 5s;
 }
 
 @keyframes textColor {
@@ -127,4 +130,21 @@ img {
 .square {
     width: 10px;
     height: 10px;
+}
+
+@keyframes chartOpacity {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+
+}
+
+.holiday-chart {
+    display: inline-block;
+    margin: 50px;
+    animation: chartOpacity ease 5s;
 }
