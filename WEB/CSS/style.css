@@ -16,18 +16,9 @@ img {
 
 .chart-title1 {
     color: aliceblue;
-    animation: textColor ease 5s;
 }
 
-@keyframes textColor {
-    from {
-        color: rgb(38, 34, 34);
-    }
 
-    to {
-        color: aliceblue;
-    }
-}
 
 .iphone-campaign {
     color: rgb(238, 155, 11);
