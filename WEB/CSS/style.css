@@ -61,11 +61,26 @@ img {
     height: 350px;
     width: 520px;
     align-items: center;
-    display: block;
+    display: inline-block;
     text-align: center;
     animation: chartOpacity ease 5s;
 }
 
 .chart-title2 {
     color: rgb(38, 34, 34)
+}
+
+h1 {
+    text-align: center;
+}
+
+.samsung-stat1 {
+    background-color: aliceblue;
+    margin: 35px;
+    height: 380px;
+    width: 520px;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    animation: chartOpacity ease 5s;
 }
