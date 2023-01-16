@@ -2,94 +2,6 @@ body {
     background-color: rgb(38, 34, 34);
 }
 
-
-.all {
-    background: rgb(38, 34, 34);
-    height: 100vh;
-    display: flex;
-    animation: chartOpacity ease 5s;
-}
-
-.raw {
-    width: 160px;
-    height: 160px;
-    position: relative;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: 20px;
-    display: inline-block;
-}
-
-.compare-header0 {
-    text-align: center;
-    color: rgb(222, 66, 68);
-}
-
-.compare-header1 {
-    text-align: center;
-    color: rgb(73, 235, 132);
-}
-
-.outer {
-    height: 130px;
-    width: 130px;
-    border-radius: 50%;
-    box-shadow: 6px 6px 10px -1px rgb(99, 90, 90),
-        -6px -6px 10px -1px;
-    padding: 20px
-}
-
-.inner {
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 4px 4px 6px -1px rgb(255, 255, 255, 0.2),
-        inset -4px -4px 6px -1px rgba(0, 0, 0, 0.7);
-    margin: 5px;
-}
-
-#number {
-    font-weight: 600px;
-    color: white;
-    font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-circle {
-    fill: rgba(0, 0, 0, 0);
-    stroke: url(#GradientColor);
-    stroke-width: 20px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
-    animation: anim0 2s linear forwards;
-}
-
-
-
-svg {
-    position: absolute;
-}
-
-@keyframes anim0 {
-    100% {
-        stroke-dasharray: 434; /* 434 = 472-(472*8%) */
-    }
-}
-
-
-
-
-.well-done {
-    width: 160px;
-    height: 160px;
-    margin-top: 30px;
-    margin-left: 70px;
-
-}
-
 .chart {
     margin-top: 30px;
     margin-left: 30px;
@@ -148,3 +60,5 @@ img {
     margin: 50px;
     animation: chartOpacity ease 5s;
 }
+
+
