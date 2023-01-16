@@ -2,8 +2,8 @@ body {
     background-color: rgb(38, 34, 34);
 }
 
+
 .chart {
-    margin-top: 30px;
     margin-left: 30px;
     display: inline-block;
     animation: chartOpacity ease 5s;
@@ -16,6 +16,7 @@ img {
 
 .chart-title1 {
     color: aliceblue;
+
 }
 
 
@@ -23,11 +24,13 @@ img {
 .iphone-campaign {
     color: rgb(238, 155, 11);
     display: -webkit-inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .samsung-campaign {
     color: blue;
-    display: inline-block
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .square {
@@ -52,4 +55,17 @@ img {
     animation: chartOpacity ease 5s;
 }
 
+.samsung-stat {
+    background-color: aliceblue;
+    margin: 35px;
+    height: 350px;
+    width: 520px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    animation: chartOpacity ease 5s;
+}
 
+.chart-title2 {
+    color: rgb(38, 34, 34)
+}
