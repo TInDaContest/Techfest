@@ -75,7 +75,7 @@ svg {
 
 @keyframes anim0 {
     100% {
-        stroke-dasharray: 434;
+        stroke-dasharray: 434; /* 434 = 472-(472*8%) */
     }
 }
 
